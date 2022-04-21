@@ -1,0 +1,179 @@
+{
+    "course": {
+        "id": "24",
+        "name": "Samvaad - Intermediate",
+        "logo": "https://bit.ly/2PzSPkJ",
+        "notes": null,
+        "days_to_complete": "30",
+        "short_description": "English Conversation Cards",
+        "type": "html",
+        "course_type": null,
+        "lang_available": [
+            "en"
+        ],
+        "exercises": [
+            {
+                "id": "4504",
+                "parent_exercise_id": null,
+                "course_id": "24",
+                "name": "How to Use",
+                "slug": "samvaad-intermediate__how-to-use_md",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate/how-to-use.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Is course me kuch aise topics hain jinhe discuss karke aap English conversation ki practice kar sakte hain. Jab aap is course ko start karenge, toh aap apne conversation partner ke sath in topics par lagbhag 30 minutes tak baat karein. Ye aapki English ki fluency improve karne me helpful rahega. Agar inme se koi topic ke baare mein aapke paas enough information nahi hai, toh pehle hi thoda extra time lekar thoda padh lein aur fir conversation karein.\n\n\n\nDhyan rakhein, English mein professional conversation karne ke liye ye zaruri hai ki aap fluent ho aur apni day-to-day topics par baat karne mein comfor`tab`le hon. In cheezon ke baare me baat karna shayad apko interesting na lage, par yahan fluency build karna important hai.\n\n\n\nEnjoy!\n\n\n\nSome important tips to help you learn better:\nMaintain a diary with all the new words that you learn\nRevise your vocabulary diary everyday\nShare your vocabulary lists with your friends and revise together\nListen to `YouTube` videos where they are having conversation about these topics\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4505",
+                "parent_exercise_id": "4505",
+                "course_id": "24",
+                "name": "Motivation",
+                "slug": "samvaad-intermediate__cards/motivation_md",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate/cards/motivation.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Motivation\n\n* What motivates you to work hard?\n\n* What do you do when you feel demotivated?\n\n* What can be a good way to motivate others?\n\n\n\nResources to study about motivation:\n\n* <https://youtu.be/9hdSLiHaJz8>\n\n* <https://youtu.be/WfWgThjXpXo>\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4506",
+                "parent_exercise_id": "4505",
+                "course_id": "24",
+                "name": "Alcoholism",
+                "slug": "samvaad-intermediate__cards/alcoholism_md",
+                "sequence_num": 101,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate/cards/alcoholism.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Alcoholism\n\n* Are you aware of alcoholism problem in India?\n\n* What is alcoholism?\n\n* How can people fight with alcoholism?\n\n\n\nResources to study alcoholism:\n\n* <https://youtu.be/e5DxD6Tuxxw>\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4507",
+                "parent_exercise_id": "4505",
+                "course_id": "24",
+                "name": "Peer Pressure",
+                "slug": "samvaad-intermediate__cards/peer-pressure_md",
+                "sequence_num": 102,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate/cards/peer-pressure.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Peer Pressure\n\n* Is peer pressure harmful or beneficial to individuals?\n\n* What are some ways in which in which peer pressure can be beneficial?\n\n* What are some ways in which peer pressure can be harmful?\n\n* How can one resist peer pressure?\n\n* When have you been a victim of peer pressure?\n\n* Do people face peer pressure in NavGurukul? How can it be improved?\n\n\n\nResources to study about peer pressure\n\n* [What is peer pressure?](https://www.verywellmind.com/what-is-peer-pressure-22246)\n* [Peer pressure and fitting in](https://kidshelpline.com.au/teens/issues/peer-pressure-and-fitting)\n* [Peer Pressure](http://www.safeteens.org/relationships/peer-pressure/)\n\nVocabulary\n\n 1- Addictive Behaviors - \u0935\u094d\u092f\u0938\u0928\u0915\u093e\u0930\u0940 \u092c\u0930\u0924\u093e\u0935\n 2- Unpredic`tab`le -  \u091c\u093f\u0938\u0915\u0947 \u0938\u094d\u0935\u092d\u093e\u0935 \u0906\u0926\u093f \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u092a\u0942\u0930\u094d\u0935\u093e\u0928\u0941\u092e\u093e\u0928 \u0928 \u0932\u0917\u093e\u092f\u093e \u091c\u093e \u0938\u0915\u0947\n 3- Adolescent - \u0924\u0947\u0930\u0939 \u0938\u0947 \u0909\u0928\u094d\u0928\u0940\u0938 \u0935\u0930\u094d\u0937 \u0915\u0940 \u0906\u092f\u0941 \u0915\u093e\n 4- Vulnerable -  \u0918\u093e\u0935 \u0932\u0917\u093e\u0928\u0947 \u092f\u094b\u0917\u094d\u092f\n 5- Gambling - \u091c\u0941\u0906 \u0916\u0947\u0932\u0928\u093e\n 6- Addiction - \u092c\u0941\u0930\u0940 \u0906\u0926\u0924\n 7- Problematic -  \u0905\u0928\u093f\u0936\u094d\u091a\u093f\u0924\n 8- Encouraging - \u092a\u094d\u0930\u094b\u0924\u094d\u0938\u093e\u0939\u0915\n 9- Apologize - \u0915\u094d\u0937\u092e\u093e \u092e\u093e\u0902\u0917\u0928\u093e\n 10- Experimentation - \u092a\u094d\u0930\u092f\u094b\u0917\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4508",
+                "parent_exercise_id": "4505",
+                "course_id": "24",
+                "name": "NavGurkul Values",
+                "slug": "samvaad-intermediate__cards/navgurukul_md",
+                "sequence_num": 103,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate/cards/navgurukul.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "* What should be the most important values for a self-learning community like NavGurukul?\n\n* Which of these values do you imbibe?\n\n* What kind of culture and values can be harmful for the growth and learning environment at NavGurukul?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4509",
+                "parent_exercise_id": "4505",
+                "course_id": "24",
+                "name": "Self Driving Cars",
+                "slug": "samvaad-intermediate__cards/selfdriving_md",
+                "sequence_num": 104,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate/cards/selfdriving.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "* What would be the advantages of self-driving cars?\n\n* What would be the disadvantages of self-driving cars?\n\n* Would you like to ride in a self-driving car?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4510",
+                "parent_exercise_id": "4505",
+                "course_id": "24",
+                "name": "Technology",
+                "slug": "samvaad-intermediate__cards/technology_md",
+                "sequence_num": 105,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate/cards/technology.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "* In the last 100 years, has the growth in technology been helpful for human beings?\n\n* Has it been helpful for the environment?\n\n* Which resources are at the brink of exhaustion?\n\n* What harmful effects has it been causing?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4511",
+                "parent_exercise_id": "4505",
+                "course_id": "24",
+                "name": "Apocalypse",
+                "slug": "samvaad-intermediate__cards/apocalypse_md",
+                "sequence_num": 106,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate/cards/apocalypse.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "If you find out that the world was going to end after two days, how would you spend your last two days? Why?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4512",
+                "parent_exercise_id": "4505",
+                "course_id": "24",
+                "name": "Wishes",
+                "slug": "samvaad-intermediate__cards/wishes_md",
+                "sequence_num": 107,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate/cards/wishes.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "* If you could become omnipotent for one day, what would you do?\n\n* If you could change one thing about the world, which of the following would you choose?\n- Poverty\n- Greed\n- Health Issues\n- Violence\n\n* If given a chance to meet one famous person, whom would you choose?\n\n"
+                    }
+                ]
+            }
+        ]
+    }
+}

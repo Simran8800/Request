@@ -1,0 +1,1143 @@
+{
+    "course": {
+        "id": "170",
+        "name": "Dictionary (Using Python)",
+        "logo": "https",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "Dictionary ko thoda depth mein samajhte hain.",
+        "type": "html",
+        "course_type": null,
+        "lang_available": [
+            "en",
+            "hi"
+        ],
+        "exercises": [
+            {
+                "id": "5883",
+                "parent_exercise_id": null,
+                "course_id": "170",
+                "name": "Introduction to Dictionary",
+                "slug": "dictionary__intro_dictionary_md",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/intro_dictionary.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Dictionary\n\nDefinition :-\n\nTo create a dictionary we put in the `key value pairs` in a comma separated form inside `curly brackets { }` and use the `colon \":\"` to assign values to `keys``.\n\n\n\nExample:-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "city_population = {\n    \"NewYorkCity\":8550405,\n    \"LosAngeles\":3971883, \n    \"Toronto\":2731571, \n    \"Chicago\":2720546, \n    \"Houston\":2296224, \n    \"Montreal\":1704694, \n    \"Calgary\":1239220, \n    \"Vancouver\":631486, \n    \"Boston\":667137\n}\n\nprint(city_population[\"NewYorkCity\"])\nprint(city_population)\nprint(type(city_population))",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n8550405\n\n\n\n{\n   \"NewYorkCity\":8550405,\n    \"LosAngeles\":3971883, \n    \"Toronto\":2731571, \n    \"Chicago\":2720546, \n    \"Houston\":2296224, \n    \"Montreal\":1704694, \n    \"Calgary\":1239220, \n    \"Vancouver\":631486, \n    \"Boston\":667137\n}\n\n\n\n<type 'dict'>\n\n\n\n`Keys Case Sensitive` :-\n\nDictionary `keys` should be `case sensitive`, means we can write `keys` with same names but different case. `Python` treats them as different `keys`.\n\n\n\nExample:-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "\n Dict = {\n       'ball' : 'green',\n       'Ball': 'red'\n     }\nprint(Dict['ball'])\nprint(Dict['Ball'])\nprint(Dict['bat'])",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "green\nred\n`KeyE`rror: bat\n\n\n\n// `KeyE`rror `tab` aati hai jab `key` dictionay mai nahi hoti hai.\n\n\n\n\nIn the dictionary, *dict* , *ball* a `key` which has value *\"green\"*, similarly *\"Ball\"* is another `key` which has value *\"red\"*.\n\n\n\ndict() function\n\nYou can create a dictionary using the `dict()` function.\n\n\n\nExample:-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "student=dict(name= \"Ravina\",age= 20)\nprint(student)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output`:-\n\n`{'age': 20, 'name': 'Ravina'}`\n\n\n\n\nDataType of `Keys` and `Values`\n\nA *\"dictionary\"*  can have values of any data type and can also be same, but `keys` are always to be unique.\n\n\n\n\nExample:-\n\n*dictionary with `integer` `keys`:-*\n\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "   my_dict = {\n    1: 'apple', \n    2: 'ball'\n    }\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "*dictionary with mixed `keys`:-*\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "my_dict = {\n    'name': 'John',\n     1: [2, 4, 3]\n    }",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Nested Dictionary` :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "Dic= {\n 1: 'NAVGURUKUL',\n 2: 'IN',  \n 3:{\n     'A' : 'WELCOME',\n     'B' : 'To', \n     'C' : 'DHARAMSALA'\n     }\n}\nprint(Dic)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n`{1: 'NAVGURUKUL', 2: 'IN', 3: {'A': 'WELCOME', 'B': 'To', 'C': 'DHARAMSALA'}}`\n\n\n\n"
+                    },
+                    {
+                        "type": "youtube",
+                        "value": "https://www.youtube.com/watch?v=daefaLgNkw0"
+                    },
+                    {
+                        "type": "youtube",
+                        "value": "https://www.youtube.com/watch?v=0g1ogNP5doA"
+                    }
+                ]
+            },
+            {
+                "id": "5880",
+                "parent_exercise_id": null,
+                "course_id": "170",
+                "name": "Accessing Elements from a Dictionary",
+                "slug": "dictionary__access_element_dictionary_md",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/access_element_dictionary.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "`Accessing` Elements from a Dictionary:-\n\nWe can `access` dictionary values with the use of square brackets. Look at the example below to understand.\n\n\n\nExample :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "person={\n    'name':'jack',\n    'age':20,\n    'gender':'male',\n    4:'organisation'}\n\nresult = person['age'] \nx = person.get(\"gender\")\nprint(person[4])\nprint(x)\nprint(result)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "    \n`Output` :-\n\n`organisation male 20 ` \n\n\n\n`get()` :-\n\nWe can also make use of the **get()** function to access dictionary values.\n\n\n \n\nExample :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "person={\n    'name':'jack',\n    'age':20,\n    'gender':'male',\n    4:{\n        'organisation':'navgurukul','place':'dharamsala'\n        }\n    }\nprint(person['gender'])\n\nprint(person[4])\n\nresult = person[4]['place']\n\nprint(result)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "   \n`Output` :-\n\nmale \n{'organisation': 'navgurukul', 'place': 'dharamsala'}\n dharamsala\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5876",
+                "parent_exercise_id": null,
+                "course_id": "170",
+                "name": "Adding Elements to a  Dictionary",
+                "slug": "dictionary__add_element_to_dictionary_md",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/add_element_to_dictionary.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Adding Elements to a  Dictionary:-\n\nIn a `python` dictionary we can add only one `key` value pair at a time. To add to a dictionary we mention the `key` inside `square brackets \"[ ]\"` and use the `equal to \"=\" operator` to `assign` a value.\n\n\n\n\nExample :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "dic= {\n    'Name': 'RAM', \n    'Age': 17,\n    }\n    \ndic['ORGANIZATION'] = \"NAV GURUKUL\"\n\ndic['place'] = 'dharamsala'\n\nprint(dic)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n`{'Name': 'RAM', 'Age': 17,'ORGANIZATION': 'NAVGURUKUL', 'place':'dharamsala}`\n\n\n\n\nExample :-\n\n        \n "
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "dic= {\n    'Name': 'RAM',\n    'Age': 17,\n     }\ndic['student']={\n        'id':22, \n        'place':'dharamsala'\n    }\nprint(dic)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "    \n`Output`:-\n\n`{'Name': 'RAM', 'Age': 17, 'student': {'id': 22, 'place': 'dharamsala'}}`\n\n\n        \n\n`Key` Exists or not\n\nWe use the `in` `key`word to check whether a given `key` exists or not in a dictionary.\n\n\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "car ={\n    \"brand\":  \"ford\",\n    \"model\":  \"mustang\",\n    \"year\":  1964\n}\nif \"model\" in car:\n    print(\"Yes, 'model' is one of the keys in the car dictionary.\")\n\nelse:\n    print(\"No, 'model' key dictionary mai nahi hai.\")",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n`Yes, 'model' is one of the keys in the this dict dictionary.`\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5877",
+                "parent_exercise_id": null,
+                "course_id": "170",
+                "name": "Update Dictionary",
+                "slug": "dictionary__update_element_dictionary_md",
+                "sequence_num": 300,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/update_element_dictionary.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "`Updating Dictionary` :-\n\nTo `update dictionary` ,we can make an entry in it or we can add a `key-value` pair or we can change the value of an existing `key`. As given in the example explained:-\n\n\n\nExample 1:-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "person= {'1': 'RAM', '2': 17,}\nperson[3] = 'male'\nprint(person)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output`:-\n\n`{'1': 'RAM', '2': 17,'3':'male'}`\n\n\n\nExample 2 :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "details={\n    'Name': 'RAM',\n     'Age': 17, \n     'student': {\n      'id': 22,\n      'place': 'dharamsala'\n      }\n     } \ndetails['student']['id']=35\nprint(details); ",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "        \n`Output`:-\n\n`{'Name': 'RAM', 'Age': 17, 'student': {'id': 35, 'place': 'dharamsala'}}`\n\n\n\n\n\n\nCopy of Dictionary :-\n\nWe can copy a dictionary in two ways,first method is using `copy()` and second method by using built-in function `dict()`.\n\n\n\n\nExample 1 :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "classes ={\n    \"room1\":  \"6th\",\n    \"room2\":  \"7th\",\n    \"room3\":  \"8th\"\n        }\nmydict=classes.copy()\nprint(mydict)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n`{'room2': '7th', 'room3': '8th', 'room1': '6th'}`\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5878",
+                "parent_exercise_id": null,
+                "course_id": "170",
+                "name": "Removing Elements from a Dictionary",
+                "slug": "dictionary__remove_element_dictionary_md",
+                "sequence_num": 400,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/remove_element_dictionary.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "        \nRemoving Elements from a Dictionary:-\n\n We can remove dictionary elements by many methods. \nLike given below.\n\n\n\n`pop()` :-\n\nUsing the **pop( )** method we can remove a specified element from the dictionary.\n\n\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "CAR_DETAILS={\n    \"brand\": \"Ford\",\n    \"model\": \"jason\",\n    \"year\": 1964\n}\nCAR_DETAILS.pop(\"model\")\nprint(CAR_DETAILS)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "    \n`Output`:-\n\n`{'brand': 'Ford', 'year': 1964}`\n\n\n\n`popitem()`:-\n\nThe **popitem()** method removes the last inserted item:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "person={\n    'name':'jack',\n    'id':22,\n    'place':'dharamsala'\n}\nperson.popitem()\nprint(person)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output`:-\n\n`{'name':'jack','id':22}`\n\n\n\n`del` :-\n\nUsing the **del** `key`word we can remove a specified element from the dictionary.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "person={\n    'name':'jack',\n    'id':22,\n    'place':'dharamsala'\n}\n\ndel person('place')\nprint(person)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output`:-\n\n`{'name':'jack','id':22}`\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5881",
+                "parent_exercise_id": null,
+                "course_id": "170",
+                "name": "Iteration",
+                "slug": "dictionary__iterations_md",
+                "sequence_num": 500,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/iterations.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Iterate through all `keys`:-\n\n \n  "
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "states_capitals = {\n    'Gujarat' : 'Gandhinagar',\n    'Maharashtra' : 'Mumbai',\n    'Rajasthan' : 'Jaipur',\n    'Bihar' : 'Patna'\n    }\nfor state in states_capitals:\n    print(state)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output`:-\n\n`Gujarat Maharashtra Rajasthan Bihar`\n\n\n\n\nIterate through all values:-\n\nExample :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "states_capitals = {\n    'Gujarat' : 'Gandhinagar',\n    'Maharashtra' : 'Mumbai',\n    'Rajasthan' : 'Jaipur',\n    'Bihar' : 'Patna'\n    }\n    \nfor state in states_capitals:\n    print(states_capitals[state])",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n   ` Gandhinagar\n        Mumbai\n        Jaipur\n        Patna`\n\n\n\nExample :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "details ={\n    \"name\":  \"Bijender\",\n    \"age\":  17,\n    \"class\":  \"10th\"\n    }\nfor x in details.values():\n    print(x)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n`17\nBijender\n10th\n`\n\n\n\n\nExample :-\n\nHow to print *`keys`* and *values* together from a dictionary?\n\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "movie ={\n    \"name\":  \"Puli\",\n    \"hero\":  \"Vijay\",\n    \"rating\":  7.5\n    }\nfor x,y in movie.items():\n    print(x,y)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n`('rating', 7.5)\n('hero', 'Vijay')\n('name', 'Puli')\n`\n\n\n   \n\nDictionary length\n\nWe use **Dictionary length** to find the number of items/`key` value pairs in a dictionary.\n\n\n\n\nExample:-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "meal ={\n    \"monday\":  \"Chole chawal\",\n    \"sunday\":  \"Fried rice\",\n    \"wednesday\":  \"dosa\"\n    }\nprint(len(meal))",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n   `3`\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5884",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Questions",
+                "slug": "dictionary__Questions/intro_md",
+                "sequence_num": 600,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/intro.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Now we will do some questions related to `dictionary`. Which will help us in better understanding of the it.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5898",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 1",
+                "slug": "dictionary__Questions/question1_md",
+                "sequence_num": 601,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question1.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 1\n\nWrite a program such that the below given `dictionaries` are into a `single dictionary` and add the values having same `key`.\n\n\n        \n\nExample :-\n\n`Input` :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "dic1={1:10, 2:20}\ndic2={3:30,2:40}\ndic3={5:50,6:60}",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": " \n`Output` :-\n\n{1: 10, 2: 60, 3: 30,  5: 50, 6: 60}\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5899",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 2",
+                "slug": "dictionary__Questions/question2_md",
+                "sequence_num": 602,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question2.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 2\n\nWrite  a program to print 'exists' if entered `key` already exists in the dictionary and print 'not exists' if the entered `key` does not exist.\n\n\n\n\n\n\nExample :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "dict1={\u201cname\u201d:\u201dRaju\u201d, \u201cmarks\u201d:56}",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Note :-\n\nIf `input` is \u201cname\u201d then `output` will be \u201cexist\u201d\n\n\n\nIf `input` is \u201cclass\u201d then `output` will be \u201cnot exists\u201d.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5900",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 3",
+                "slug": "dictionary__Questions/question3_md",
+                "sequence_num": 603,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question3.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Ek program likhiye jo ki dictionaries ki values ka sum print kare.\n\n\n\n\n\nExample :-\n\n`Input` :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "my_dict = {\n      'data1':100,\n      'data2': -54,\n      'data3': 247\n      } ",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": " \n`Output` :-\n\n293\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5901",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 4",
+                "slug": "dictionary__Questions/question4_md",
+                "sequence_num": 604,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question4.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 4\n\nWrite a program remove the first `key` value pair from a nested `dictionary`.\n\n\n\n\n\n\nExample :-\n\n`Input` :-\n\n```\n       Dic= {\n        1: 'NAVGURUKUL',\n        2: 'IN',  \n          3:{    \n             'A' : 'WELCOME',\n             'B' : 'To',\n             'C' : 'DHARAMSALA'\n            }\n        }\n```\n \n`Output` :-\n\n  \nDic= {\n    1: 'NAVGURUKUL',\n    2: 'IN',  \n      3:\n      { 'B' : 'To',\n        'C' : 'DHARAMSALA'\n       }\n    }\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5902",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 5",
+                "slug": "dictionary__Questions/question5_md",
+                "sequence_num": 605,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question5.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 5\n\nCreate a `dictionary` from 2 `lists`, where the elements of 1st list are the `keys` and the elements of the 2nd list are the corresponding values.\n\n\n\nExample :-\n\n`Input` :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "list1=[\u201cone\u201d,\u201dtwo\u201d,\u201dthree\u201d,\u201dfour\u201d,\u201dfive\u201d]\n\nlist2=[1,2,3,4,5,] ",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n{\u201cone\u201d:1,\u201dtwo\u201d:2,\u201dthree\u201d:3,\u201dfour\u201d:4,\u201dfive\u201d:5}\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5904",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 6",
+                "slug": "dictionary__Questions/question6_md",
+                "sequence_num": 606,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question6.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 6\n\nWrite a program to remove `duplicate keys`.\n\n\n\nExample :-\n\n`Input` :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "dic={\n    \u201cball\u201d:\u201dred\u201d,\n    \u201dbat\u201d:4,\n    \u201dwickets\u201d:8,\n    \u201dball\u201dgreen,\n    \u201dbat\u201d:3\n    }",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n \n {\u201cball\u201d:\u201dred\u201d,\u201dbat\u201d:4,\u201dwickets\u201d:8}\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5903",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 7",
+                "slug": "dictionary__Questions/question7_md",
+                "sequence_num": 607,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question7.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Take a `list having dictionary` elements as shown below (Sample Data) and then store all the `unique values` into a `list` and print.\n\n\n\n\nExample :-\n\n`Input` :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": " [\n     {\"first\":\"1\"}, \n     {\"second\": \"2\"}, \n     {\"third\": \"1\"}, \n     {\"four\": \"5\"}, \n     {\"five\":\"5\"}, \n     {\"six\":\"9\"},\n     {\"seven\":\"7\"}\n]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n['2', '7', '9', '5', '1']\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5906",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 8",
+                "slug": "dictionary__Questions/question8_md",
+                "sequence_num": 608,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question8.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 8\n\nTake `input` of name and marks of 10 students and store to a dictionary.\n\n\n\n\n\n`Output` :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "{\n    'sonu':85,\n    'Kartik':90,\n    'Deepak':96,\n    'Aman':76,\n    'Somesh':60,\n    'Umesh':85,\n    'Amarpal':70,\n    'Roshan':57,\n    'Riyaz':98,\n    'Shabid':56\n} ",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5907",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 9",
+                "slug": "dictionary__Questions/question9_md",
+                "sequence_num": 609,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question9.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 9\n\nStore the unique letters and their `frequency` of the letters from the  word \"MISSISSIPPI\" to a dictionary, were the letters are the `keys` and their `frequencies` are the values.\n\n\n\n\n\nExample:-\n\n`Output` :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "{'M':1,'I':4,'S':4,'P':2}",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5905",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 10",
+                "slug": "dictionary__Questions/question10_md",
+                "sequence_num": 610,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question10.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 10\n\nCount the total number of items from the values of the `dictionary` which are in the form of a `list`.\n\n\n\n\n\n`Input` :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": " dict1 =  {\n   'Alex': ['subj1', 'subj2', 'subj3'], \n   'David': ['subj1', 'subj2']}",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n```\ntotal count:5\n```\n"
+                    }
+                ]
+            },
+            {
+                "id": "5910",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 11",
+                "slug": "dictionary__Questions/question11_md",
+                "sequence_num": 611,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question11.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 11\n\nWrite a program to print the top 3 highest values of a given dictionary.\n\n\n\n`Input` :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "my_dict = {\n    'a':50, \n    'b':58, \n    'c':56,\n    'd':40, \n    'e':100, \n    'f':20\n    }",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\n[58,56,100]\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5911",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 12",
+                "slug": "dictionary__Questions/question12_md",
+                "sequence_num": 612,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question12.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 12\n\nWrite a program to create a dictionary with all numbers from 1 to 15 as the `keys` and their squares as the corresponding values.\n\n\n\n\n`Output` :-\n\n{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121, 12: 144, 13: 169, 14: 196, 15: 225}\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5908",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 13",
+                "slug": "dictionary__Questions/question13_md",
+                "sequence_num": 613,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question13.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 13\n\nWrite a program to print the top 3 highest values of a given `dictionary`.\n\n\n\nExample :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "my_dict = {\n    'a':50, \n    'b':58,\n    'c': 56,\n    'd':40,\n    'e':100, \n    'f':20\n    }",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Output` :-\n\nexpect result:-['e','b','c']\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5909",
+                "parent_exercise_id": "5884",
+                "course_id": "170",
+                "name": "Question 14",
+                "slug": "dictionary__Questions/question14_md",
+                "sequence_num": 614,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question14.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 14\n\nWrite a program to sort a dictionary in ascending or descending according to its values .\n\n\n\n\n`Input` :-\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "\n{'bijender':45,'deepak':60,'param':20,';'anjili':30,'roshini':50}",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Expected result in Ascending Order:\n\n{'param':20,'anjili':30,'bijender':45,'roshini':50,'deepak':60}\n\n\n \nExpected result in Descending Order:\n\n{'deepak':60,'roshini':50,'bijender':45,'anjili':30,'param':20}\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5882",
+                "parent_exercise_id": "5882",
+                "course_id": "170",
+                "name": "Code Output",
+                "slug": "dictionary__OutputOfCode/intro_md",
+                "sequence_num": 700,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/OutputOfCode/intro.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "`Code` `Output`\n\nNow we will do some questions related to the `dictionary`, which will help us in better understanding of it.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5891",
+                "parent_exercise_id": "5882",
+                "course_id": "170",
+                "name": "Question 1",
+                "slug": "dictionary__OutputOfCode/question1_md",
+                "sequence_num": 701,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/OutputOfCode/question1.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "What will be the `output` of the following `code` snippet?\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "a = {(1,2):1,(2,3):2}\nprint(a[1,2])",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Options :-`\n\n\n\nA.     `Key` `Error`\n\n\n\nB.     1\n\n\n\nC.     {(2,3):2}\n\n\n\nD.     {(1,2):1}\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5892",
+                "parent_exercise_id": "5882",
+                "course_id": "170",
+                "name": "Question 2",
+                "slug": "dictionary__OutputOfCode/question2_md",
+                "sequence_num": 702,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/OutputOfCode/question2.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "What will be the `output` of the following `code` snippet?\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "a = {'a':1,'b':2,'c':3}\n\nprint(a['a','b'])",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`Options :- `\n\n\n\nA.     `Key` `Error`\n\n\n\nB.     [1,2]\n\n\n\nC.     {\u2018a\u2019:1,\u2019b\u2019:2}\n\n\n\nD.     (1,2)\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5893",
+                "parent_exercise_id": "5882",
+                "course_id": "170",
+                "name": "Question 3",
+                "slug": "dictionary__OutputOfCode/question3_md",
+                "sequence_num": 703,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/OutputOfCode/question3.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 3\n\nWhat will be the `output` of the following `code` snippet?\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "\nfruit = {}\n\ndef addone(index):\n    if index in fruit:\n        fruit[index] += 1\n    else:\n        fruit[index] = 1\n        \naddone('Apple')\naddone('Banana')\naddone('apple')\naddone('Apple')\n\nprint(len(fruit))\nprint(fruit)",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5894",
+                "parent_exercise_id": "5882",
+                "course_id": "170",
+                "name": "Question 4",
+                "slug": "dictionary__OutputOfCode/question4_md",
+                "sequence_num": 704,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/OutputOfCode/question4.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 4\n\nWhat will be the `output` of the following `code` snippet?\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "Student = {}\nAge = {}\nDetails = {}\nStudent['name'] = \"bikki\"\nAge['student_age'] = 14\nDetails['Student'] = Student\nDetails['Age'] = Age\n\nprint(len(Details[\"Student\"])) \n",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5896",
+                "parent_exercise_id": "5882",
+                "course_id": "170",
+                "name": "Question 5",
+                "slug": "dictionary__OutputOfCode/question5_md",
+                "sequence_num": 705,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/OutputOfCode/question5.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 5\n\nWhat will be the `output` of the following `code` snippet?\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "my_dict = {}\nmy_dict[(1,2,4)] = 8\nmy_dict[(4,2,1)] = 10\nmy_dict[(1,2)] = 12\n\nsum = 0\nfor k in my_dict:\n    sum += my_dict[k]\n\nprint(sum)\nprint(my_dict)",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5895",
+                "parent_exercise_id": "5882",
+                "course_id": "170",
+                "name": "Question 6",
+                "slug": "dictionary__OutputOfCode/question6_md",
+                "sequence_num": 706,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/OutputOfCode/question6.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 6\n\nWhat will be the `output` of the following `code` snippet?\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "box = {}\njars = {}\ncrates = {}\nbox['biscuit'] = 1\nbox['cake'] = 3\njars['jam'] = 4\ncrates['box'] = box\ncrates['jars'] = jars\nprint(len(crates[box]))",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5897",
+                "parent_exercise_id": "5882",
+                "course_id": "170",
+                "name": "Question 7",
+                "slug": "dictionary__OutputOfCode/question7_md",
+                "sequence_num": 707,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/OutputOfCode/question7.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 7\n\nWhat will be the `output` of the following `code` snippet?\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "rec = {\n\"Name\" : \"Python\", \n\"Age\":\"20\",\n\"Addr\" : \"NJ\", \n\"Country\" :\"USA\"\n}\nid1 = id(rec)\ndel rec\n\nrec = {\n    \"Name\" : \"Python\", \n    \"Age\":\"20\", \n    \"Addr\" : \"NJ\", \n    \"Country\" : \"USA\"\n    }\nid2 = id(rec)\nprint(id1 == id2)\n",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5879",
+                "parent_exercise_id": "5879",
+                "course_id": "170",
+                "name": "Debug  Code",
+                "slug": "dictionary__DebugCode/intro_md",
+                "sequence_num": 800,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/DebugCode/intro.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Debug  `Code`\n\nNow we will `debug` the `code` related to `dictionary`.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5887",
+                "parent_exercise_id": "5879",
+                "course_id": "170",
+                "name": "Question 1",
+                "slug": "dictionary__DebugCode/question1_md",
+                "sequence_num": 801,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/DebugCode/question1.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 1\n\n You have been given a dictionary in which you have to print the value of some `key`. Debug the `code`.\n\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "details={\n    \"name\":\"Shanti\",\n    \"age\":12,\n    \"email\":\"shanti@navgurukul.org\",\n    }\n\nprint(details[\"name\"])\nprint(details[\"lastname\"])\nprint(details[age])\n",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5888",
+                "parent_exercise_id": "5879",
+                "course_id": "170",
+                "name": "Question 2",
+                "slug": "dictionary__DebugCode/question2_md",
+                "sequence_num": 802,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/DebugCode/question2.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 2\n\nYou have been given a `dictionary` in which you have to find the `sum` of all the `keys`. You have to `debug` this `code` and find out how you can get the `output` as 14.\n\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "dict1={1:2,2:3,3:4,4:5}\nsum=0\nfor i in dict1.values():    \n    sum=sum+1\nprint(sum)",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5889",
+                "parent_exercise_id": "5879",
+                "course_id": "170",
+                "name": "Question 3",
+                "slug": "dictionary__DebugCode/question3_md",
+                "sequence_num": 803,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/DebugCode/question3.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 3\n\nBelow is a program in which the `keys` are between `1 to 15` and the values \u200b\u200bare the squares of the `keys`.\n\n\n\nThe `output` should be something like this:-\n`\n{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64,\n9: 81, 10: 100, 11: 121, 12: 144, 13: 169, 14: 196, 15: 225}`\n\n\n\nNow, you have to `debug` this :-\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "c=dict()\nfor i in range(1,16):\n    c=i*i\nprint(c) ",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5890",
+                "parent_exercise_id": "5879",
+                "course_id": "170",
+                "name": "Question 4",
+                "slug": "dictionary__DebugCode/question4_md",
+                "sequence_num": 804,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/DebugCode/question4.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Question 4\n\nYou have been given two dictionaries, You need to `concatenate` them.\n\n\n\nNow you have to debug the `code`\nAnd your `output` should be like this :-\n\n\n\n\n`{'umesh':21,'bijender':54,'amar':67,'peter':89,'sonu':56,'python':20,\"gaurav\":300,'dev':34,\"karan\":43}`\n\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "s={'umesh':21,'bijender':54,'amar':67,'peter':89,'sonu':56}\na={'python':20,\"gaurav\":300,'dev':34,\"karan\":43}\nc={}\nfor i in (s,a):\n    update(i)\nprint(c)",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5885",
+                "parent_exercise_id": "5885",
+                "course_id": "170",
+                "name": "Becoming A Programmer",
+                "slug": "dictionary__BonusTask/intro_md",
+                "sequence_num": 900,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/BonusTask/intro.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Becoming A Programmer\n\nIn this task, you have to learn six new concepts about the `dictionary`.\n\n\n\nFirstly, you have to read the three new concepts of the `dictionary` from `Python`'s website.\n\n\n\n- https://docs.`python`.org/3/tutorial/datastructures.html\n\n\n\nThen you have to read three new concepts from `stackoverflow`.\n\n\n\n\nYou will share your understanding on a `Google doc` and share it with your mentor and do some questions related to concepts.\n\n\n\nYou will take a class in which you will explain the new concepts you have learned.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5886",
+                "parent_exercise_id": "5886",
+                "course_id": "170",
+                "name": "Interview Questions",
+                "slug": "dictionary__InterviewQuestions/intro_md",
+                "sequence_num": 1000,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/InterviewQuestions/intro.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Interview Questions\n\nQ1. Difference between `dict.items()` and `dict.iteritems()` in `Python`?\n\n\n\nQ2. Write a `Python` program to print the `dictionary` in a `tab`le format?\n\n\n\nQ3. How to find `length of dictionary values`?\n\n\n\nQ4. Find `keys` with duplicate values in the `dictionary`?\n\n\n\nQ5. Sum `list of dictionaries` with the same `key`?\n\n\n\nQ6. Split `dictionary` `keys` and values into separate lists?\n\n\n\nQ7. Convert a `set into a dictionary`?\n\n\n\nQ8. Get `key` with maximum value in `dictionary`?\n\n\n\nQ9. Sort the list alphabetically in a `dictionary`?\n\n\n\nQ10. Remove spaces from `dictionary keys`?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "7735",
+                "parent_exercise_id": "5886",
+                "course_id": "170",
+                "name": "Assessment",
+                "slug": "dictionary__InterviewQuestions/Assessment_md",
+                "sequence_num": 1001,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/InterviewQuestions/Assessment.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Assessment\n\nPlease fill this quiz with proper details to understand how much of this course did you understand.\n\n\n\n[click Here\n](https://docs.google.com/forms/d/e/1FAIpQLScOMeK2zn-NZpCBgYM2boKoBNCMJua4SHKH94adV2HTY_s1yQ/viewform?usp=sf_link)\n"
+                    }
+                ]
+            }
+        ]
+    }
+}
